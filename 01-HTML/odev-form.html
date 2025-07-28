@@ -11,56 +11,79 @@
 
         <!-- table>tr*8>td*4-->
 
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+    <table>
+        <tr>
+            <td><label for="adi">Adi</label></td>
+            <td><input type="text" name="adi" id="adi"></td>
+            <td><label for="hobiler">Hobiler</label></td>
+            <td>
+                <input type="checkbox" name="futbol" id="futbol">
+                <label for="futbol">Futbol</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td><label for="soyadi">Soyadi</label></td>
+            <td><input type="text" name="soyadi" id="soyadi"></td>
+            <td><!-- bos biraktik--></td>
+            <td>
+                <input type="checkbox" name="voleybol" id="voleybol">
+                <label for="voleybol">Voleybol</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="cinsiyet">Cinsiyet</label></td>
+            <td>
+                <input type="radio" name="cinsiyet" id="cinsiyetK">
+                <label for="cinsiyetK">Kadin</label>
+
+                <input type="radio" name="cinsiyet" id="cinsiyetE">
+                <label for="cinsiyetE">Erkek</label>
+            </td>
+            <td><!-- bos biraktik--></td>
+            <td>
+            <input type="checkbox" name="basketbol" id="basketbol">
+             <label for="basketbol">Basketbol</label>
+            </td>
+           
+        </tr>
+        <tr>
+            <td><label for="ilce">Ilce</label></td>
+            <td>
+                <select name="ilce" id="ilce">
+                <option>Seciniz</option>
+                <option value="1">Adana</option>
+                <option value="2">Adiyaman</option>
+                </select>
+            </td>
+            <td><label for="profil">Profil Fotografi</label></td>
+            <td><input type="file" name="profil" id="profil"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Eposta</label></td>
+            <td><input type="email" name="email" id="email"></td>
+            <td><label for="date">Dogum Tarihi</label></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="site">Kisisel Site</label></td>
+            <td><input type="url" name="site" id="site"></td>
+            <td><label for="adres">Adres</label></td>
+            <td><textarea name="adres" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="telefon">Telefon</label></td>
+            <td><input type="tel" name="telefon" id="telefon"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><!-- bos birakiyoruz--></td>
+            <td><!-- bos birakiyoruz--></td>
+            <td><!-- bos birakiyoruz--></td>
+            <td><input type="submit" value="Kayit ol"></td>
+        </tr>
+    </table>
     </form>
 </body>
 </html>
