@@ -1,0 +1,22 @@
+.box1{
+    background-color: red;
+
+}
+.box2{
+    background-color: yellow;
+
+}
+.box3{
+    background-color: yellowgreen;
+}
+.box4{
+    background-color: pink;
+}
+.container div{
+   width: 70px;
+   height: 70px;
+}
+.container{ 
+    display: flex;  /* rakamlari yanyayana getirir */
+    flex-direction: column;
+}
